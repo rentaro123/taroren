@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>自己紹介ページ</title>
+    <link rel="stylesheet" type="text/css" href="new style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    </head>
+<body>
+    <div class="titlebar"><span class="web">Web</span>に出会う、<span class="shoka">初夏</span>が来た<p class="responsive1">早稲田祭2020運営スタッフ</p></div>
+    <div id="menu-box">
+        <div id="toggle"><a href="#"></a></div>
+        <ul id="menu" class="">
+          <li><a href="#">お問い合わせ</a></li>
+          <li><a href="#">WEBチーム</a></li>
+          <li><a href="#">プロフィール</a></li>
+          <li><a href="#">ホーム</a></li>
+     </ul>
+      </div>
+    <div class="main_1">
+        <div class="top">Who am I !?</div>
+        <div class="who">
+            <img class="who_face" src="D8A3E52A-9E15-4DA4-8AD4-3CF10F98E6C1.jpeg"alt="My face">
+        </div>
+        <div class="content_1">
+            <div class="profile_title"><b>Profile</b></div>
+            <div class="info_profile">
+            <b>大森連太郎</b><p class="responsive2">おおもりれんたろう</p>
+            <p class="birthday">2000年1月27日</p>
+            <p class="faculty">教育学部　生涯教育学専修</p>
+            </div>
+        </div>
+    </div>
+  <div class="main_2">
+    <div class="cp_cssslider">
+                <input type="radio" name="cp_switch" id="photo1" checked/>
+                <label for="photo1"><img src="DSC_0154.JPG"  /></label>
+                <img src="DSC_0154.JPG" width="600" height="450"/>
+                <input type="radio" name="cp_switch" id="photo2"/>
+                <label for="photo2"><img src="6EA53141-F7D2-4EF9-AB84-EE7A90468556.JPG" /></label>
+                <img src="6EA53141-F7D2-4EF9-AB84-EE7A90468556.JPG" width="600" height="450"/>
+                <input type="radio" name="cp_switch" id="photo3"/>
+                <label for="photo3"><img src="IMG_3170.JPG" /></label>
+                <img src="IMG_3170.JPG" width="600" height="450"/>
+                <input type="radio" name="cp_switch" id="photo4"/>
+                <label for="photo4"><img src="IMG_1631.JPG" /></label>
+                <img src="IMG_1631.JPG" width="600" height="450"/>
+                <input type="radio" name="cp_switch" id="photo5"/>
+                <label for="photo5"><img src="IMG_1596.jpeg" /></label>
+                <img src="IMG_1596.jpeg" width="600" height="450"/>
+        </div>
+        <div class="content_2">
+            <div class="about_title"><b>About me</b></div>
+            <div class="info_about">
+                <p class="local">大阪府八尾市出身</p>
+                <p class="highschool">大阪府立八尾高等学校</p>
+                <p class="club">10年間軟式野球部</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main_3">
+        <div class="activity">
+            <img src="IMG_2081.jpeg" width="600" height="500" alt="">
+        </div>
+        <div class="activity2">
+            <img src="IMG_3027.jpeg" width="500" height="400" alt="">
+        </div>
+        <div class="activity3">
+            <img src="IMG_3209.jpeg" width="800" height="400" alt="">
+        </div>
+            
+        <div class="content_3">
+                <div class="activity_title">春休みしたこと</div>
+                <div class="box1">
+                    <p>3月の頭に２週間ヨーロッパ一人旅してきたよ</p>
+                </div>
+                <div class="box2">
+                    <p>玉田くんと立川くんと免許合宿に行ってきたよ</p>
+                </div>
+                <div class="box3">
+                    <p>読書と筋トレしてたよ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_4">
+        <div class="content_4">
+            <div class="Webtoha">Webチームは楽しくてゆるい</div>
+        </div>
+    　<div class="cp_accordionslide02">
+        <div class="slideitem">
+        <div class="slidecont">
+        <h2>Adobeディズニー</h2>
+        <div class="text">
+        <p>コロナ収束したら即行こう</p>
+        </div>
+        </div>
+        </div>
+        <div class="slideitem">
+        <div class="slidecont">
+        <h2>学会</h2>
+        <div class="text">
+        <p>食べたい</p>
+        </div>
+        </div>
+        </div>
+        <div class="slideitem">
+        <div class="slidecont">
+        <h2>ラストチーミ後</h2>
+        <div class="text">
+        <p>スタバって贅沢品だよね</p>
+        </div>
+        </div>
+        </div>
+        <div class="slideitem">
+        <div class="slidecont">
+        <h2>当日</h2>
+        <div class="text">
+        <p>戸山キャンパス清掃チーム</p>
+        </div>
+        </div>
+        </div>
+        <div class="slideitem">
+        <div class="slidecont">
+        <h2>チーム解散</h2>
+        <div class="text">
+        <p>いい笑顔だ</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <script src=”jquery-3.4.1.min.js”></script>
+        <script>
+                $(function(){
+                        $("#toggle").click(function(){
+                          $("#menu").slideToggle();
+                          return false;
+                        });
+                        $(window).resize(function(){
+                          var win = $(window).width();
+                          var p = 480;
+                          if(win > p){
+                            $("#menu").show();
+                          }
+                        });
+                      });</script>
+    </body>
+            
+    <footer>
+        <div class="sosyal">
+        <a href="#" class="instagram">Instagram</a>
+        <a href="#" class="twitter">Twitter</a>
+        <a href="#" class="google">Google+</a>
+         </div>
+     </footer>
+   
+
+    </html>
