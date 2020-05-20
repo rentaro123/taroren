@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>自己紹介ページ</title>
+    <link rel="stylesheet" type="text/css" href="new style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <style id="applicationStylesheet" type="text/css">* {
-	float: none;
-	position: static;
-}
+	
 * {
 	float: none;
 	position: static;
@@ -425,7 +424,7 @@
 
 .main_4{
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-color: rgba(18,107,179,1);
     
 }
@@ -529,91 +528,91 @@
 
 
 
-.footer {
-    position: fixed;
-    bottom: -150px;
-    text-align:center;
-    height:100px;
-    background-color: lightblue;
-  }
-  .sosyal {
-    margin: 0px auto;
-    position: fixed;
-    bottom: -150px;
-    text-align:center;
-    background-color: lightblue;
-    height: 130px;
-  }
-  .instagram {
-    background-color: #ee42d7;
-    box-shadow: 0 4px 0 rgb(238, 51, 197);
-    text-shadow: 0 -1px -1px rgb(228, 60, 200);
-    
-    display: inline;
-    position: relative;
-    bottom: -50px;
-    font-family: Arial;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
-    padding: 14px 80px;
-  }
-  .instagram:hover {
-    background-color: rgb(208, 88, 212);
-  }
-  .instagram:active {
-    top: 2px;
-      box-shadow: 0 2px 0 #1B3D82;
-  }
-  .twitter {
-    background-color: #008DDE;
-    box-shadow: 0 4px 0 #0078BD;
-    
-    display: inline;
-    position: relative;
-    bottom: -50px;
-    font-family: Arial;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
-    padding: 14px 80px;
-  }
-  .twitter:active {
-    top: 2px;
-      box-shadow: 0 2px 0 #0078BD;
-  }
-  .twitter:hover {
-    background-color: #1397D8;
-  }
-  .google {
-    background-color: #CC3622;
-    box-shadow: 0 4px 0 #BA2714;
-    
-    display: inline;
-    position: relative;
-    bottom: -50px;
-    font-family: Arial;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
-    padding: 14px 80px;
-  }
-  .google:active {
-    top: 2px;
-      box-shadow: 0 2px 0 #BA2714;
-  }
-  .google:hover {
-    background-color: #D04829;
-  }
+*, *:before, *:after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+footer {
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	background-color: #9E9E9E;
+}
+footer .copyright {
+	float: left;
+	width: 50%;
+}
+footer .copyright p {
+	font-size: 0.7em;
+	line-height: 70px;
+	padding-left: 10%;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+footer .sns {
+	float: right;
+	width: 50%;
+}
+footer .sns a {
+	font-weight: bold;
+	line-height: 70px;
+	float: left;
+	-webkit-transition: all, 0.3s;
+	        transition: all, 0.3s;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+footer .sns a:hover {
+	-webkit-transition: all, 0.3s;
+	        transition: all, 0.3s;
+	background-color: #222222;
+}
+footer .sns .insta {
+	font-size: 1.2em;
+	width: 20%;
+	background-color: #e4405f;
+}
+footer .sns .fb {
+	font-size: 1.2em;
+	width: 20%;
+	background-color: #3b5999;
+}
+footer .sns .tw {
+	font-size: 1.2em;
+	width: 20%;
+	background-color: #55acee;
+}
+footer .sns .contact {
+	font-size: 0.8em;
+	width: 40%;
+	background-color: #26C6DA;
+}
+@media (max-width: 480px) {
+	.contents {
+		margin-bottom: 200px;
+	}
+	footer {
+		height: auto;
+	}
+	footer .copyright {
+		width: 100%;
+	}
+	footer .copyright p {
+		padding: 0;
+		text-align: center;
+	}
+	footer .sns {
+		width: 100%;
+	}
+}
 
 
 
@@ -735,7 +734,7 @@
 
         }
         .activity {
-            width: 85%;
+            width: 80%;
             position: absolute;
             left: 40px;
             top: 2100px;
@@ -776,7 +775,7 @@
         }
     
         .main_4 {
-            height: 1500px;
+            height: 1700px;
         }
         .Webtoha{
             position: absolute;
@@ -789,32 +788,7 @@
             top: 4000px;
             
         }
-        
-        .sosyal {
-            margin: 0px auto;
-            position: fixed;
-            bottom: -150px;
-            width: 100%;
-          }
-        .instagram{
-              position: relative;
-              left: -20px;
-              width:10px;
-              padding: 10px 10px;
-            }
-        .google{
-            position: relative;
-            left: -40px;
-            width:10px;
-            padding: 10px 10px;
-          }
-        .twitter{
-            position: relative;
-            left: -30px;
-            width:10px;
-            padding: 10px 10px;
-          }
-	}
+     }
 }
 
 
@@ -963,13 +937,17 @@
                       });</script>
     </body>
             
-    <footer>
-        <div class="sosyal">
-        <a href="http://Instagram.com/ren_aissancee/?hl=ja" class="instagram">Instagram</a>
-        <a href="#" class="twitter">Twitter</a>
-        <a href="#" class="google">Google+</a>
-         </div>
-     </footer>
+<footer>
+    <div class="copyright">
+        <p>© 2018 - Organisation</p>
+    </div>
+    <div class="sns">
+        <a href="#" class="contact">Contact</a>
+        <a href="#" class="fb"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></a>
+        <a href="#" class="tw"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/ren_aissancee" class="insta"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></a>
+    </div>
+    </footer>
    
 
     </html>
