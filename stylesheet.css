@@ -84,7 +84,7 @@
     #toggle a{
       display: block;
       position: relative;
-      padding: 12px 0 10px;
+      padding: 14px 0 10px;
       border-bottom: 1px solid #444;
       color: #222;
       text-align: center;
@@ -94,7 +94,7 @@
       display: block;
       content: "";
       position: absolute;
-      top: 51%;
+      top: 50%;
       left: 10px;
       width: 20px;
       height: 20px;
@@ -105,17 +105,17 @@
       display: block;
       content: "";
       position: absolute;
-      top: 51%;
+      top: 50%;
       left: 10px;
       width: 20px;
       height: 5px;
       background: #fff;
     }
     #toggle a:before{
-      margin-top: -6px;
+      margin-top: -5px;
     }
     #toggle a:after{
-      margin-top: 2px;
+      margin-top: 3px;
     }
   }
   
@@ -801,11 +801,5 @@
             width:10px;
             padding: 10px 10px;
           }
-    
-    
-    
-    }
-
-
-
+	}
 }
