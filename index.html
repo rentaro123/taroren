@@ -12,6 +12,10 @@
 	position: static;
 }
 * {
+	float: none;
+	position: static;
+}
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -93,7 +97,7 @@
     #toggle a{
       display: block;
       position: relative;
-      padding: 12px 0 10px;
+      padding: 14px 0 10px;
       border-bottom: 1px solid #444;
       color: #222;
       text-align: center;
@@ -103,7 +107,7 @@
       display: block;
       content: "";
       position: absolute;
-      top: 51%;
+      top: 50%;
       left: 10px;
       width: 20px;
       height: 20px;
@@ -114,17 +118,17 @@
       display: block;
       content: "";
       position: absolute;
-      top: 51%;
+      top: 50%;
       left: 10px;
       width: 20px;
       height: 5px;
       background: #fff;
     }
     #toggle a:before{
-      margin-top: -6px;
+      margin-top: -5px;
     }
     #toggle a:after{
-      margin-top: 2px;
+      margin-top: 3px;
     }
   }
   
@@ -206,7 +210,7 @@
     position: absolute;
     margin: 2em auto;
     text-align: center;
-    left: 900px;
+    left: 700px;
     top: 850px;
     border-radius: 1000px;
     filter:drop-shadow(3px 3px 3px rgb(5, 5, 5, 0.8));
@@ -300,7 +304,7 @@
     cursor: pointer;
     position: absolute;
     top: 1750px;
-    left: 150px;
+    left: 30px;
     }
 /*zoomout*/
 .activity img {
@@ -327,7 +331,7 @@
 	box-shadow: 0 0 5px #cccccc;
     cursor: pointer;
     position: absolute;
-    left: 600px;
+    left: 380px;
     top: 1700px;
 }
 /*BLUR*/
@@ -351,7 +355,7 @@
 	box-shadow: 0 0 5px #cccccc;
     cursor: pointer;
     position: absolute;
-    left: 1200px;
+    left: 900px;
     top: 1700px;
 }
 /*zoomin*/
@@ -374,7 +378,7 @@
     border-radius: 9px;
     position: absolute;
     top: 2070px;
-    left: 190px;
+    left: 80px;
     width: 220px;
 }
 .box1 p {
@@ -390,7 +394,7 @@
     border-radius: 9px;
     position: absolute;
     top: 2100px;
-    left: 700px;
+    left: 550px;
     width: 200px;
 }
 .box2 p {
@@ -406,7 +410,7 @@
     border-radius: 9px;
     position: absolute;
     top: 2090px;
-    left: 1300px;
+    left: 1000px;
     width: 200px;
 }
 .box3 p {
@@ -525,17 +529,20 @@
 
 
 
-footer {
+.footer {
     position: relative;
     bottom: -800px;
     text-align:center;
     height:100px;
-    background-color: #1397D8
+    background-color: lightblue;
   }
   .sosyal {
-    margin: 50px auto;
+    margin: 0px auto;
     position: relative;
-    bottom: -30px;
+    bottom: -900px;
+    text-align:center;
+    background-color: lightblue;
+    height: 130px;
   }
   .instagram {
     background-color: #ee42d7;
@@ -544,6 +551,7 @@ footer {
     
     display: inline;
     position: relative;
+    bottom: -50px;
     font-family: Arial;
     font-size: 14px;
     font-weight: bold;
@@ -566,6 +574,7 @@ footer {
     
     display: inline;
     position: relative;
+    bottom: -50px;
     font-family: Arial;
     font-size: 14px;
     font-weight: bold;
@@ -588,6 +597,7 @@ footer {
     
     display: inline;
     position: relative;
+    bottom: -50px;
     font-family: Arial;
     font-size: 14px;
     font-weight: bold;
@@ -725,7 +735,7 @@ footer {
 
         }
         .activity {
-            width: 80%;
+            width: 85%;
             position: absolute;
             left: 40px;
             top: 2100px;
@@ -766,7 +776,7 @@ footer {
         }
     
         .main_4 {
-            height: 2000px;
+            height: 1700px;
         }
         .Webtoha{
             position: absolute;
@@ -779,22 +789,33 @@ footer {
             top: 4000px;
             
         }
-        .footer {
+        
+        .sosyal {
+            margin: 0px auto;
             position: absolute;
-            top: 1000px;
-            text-align:center;
-            height:100px;
-            background-color: #1397D8
+            bottom: -4100px;
+            width: 100%;
           }
-          .sosyal {
-            margin: 50px auto;
+        .instagram{
+              position: relative;
+              left: -20px;
+              width:10px;
+              padding: 10px 10px;
+            }
+        .google{
             position: relative;
-            bottom: -30px;
+            left: -40px;
+            width:10px;
+            padding: 10px 10px;
           }
-    
-    
-    
-    }
+        .twitter{
+            position: relative;
+            left: -30px;
+            width:10px;
+            padding: 10px 10px;
+          }
+	}
+}
 
 
 
