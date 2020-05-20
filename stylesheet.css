@@ -517,7 +517,7 @@
 
 
 .footer {
-    position: relative;
+    position: fixed;
     bottom: -800px;
     text-align:center;
     height:100px;
@@ -779,7 +779,7 @@
         
         .sosyal {
             margin: 0px auto;
-            position: absolute;
+            position: fixed;
             bottom: -4100px;
             width: 100%;
           }
